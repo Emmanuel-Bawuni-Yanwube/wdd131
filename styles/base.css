@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Verdana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
     --back_color1: #0D1B2A;
@@ -16,7 +16,7 @@ header {
   }
 
 body {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1000px;
     height: 100%;
     margin: 0 auto;
