@@ -1,0 +1,31 @@
+@media screen and (min-width: 780px) {
+    header {
+		display: flex;
+		/* flex-direction: defined in #layout ID; */
+		align-items: flex-end;
+	    justify-content: space-between;
+	}
+	
+    /* Without unordered list, use flex-direction: row */
+	/* nav {
+		justify-content: flex-end;
+	}
+        
+	nav a {
+		flex: 1 1 100%;
+	} */
+
+    /* Unordered flex direction is in a row */
+	/* nav ul {
+		display: flex;
+        flex-direction: column;
+	}
+	nav ul li {
+        display: block;
+		flex: 1 1 100%;
+	} */
+	
+		#layout {
+			flex-direction: row;
+		}
+	}
