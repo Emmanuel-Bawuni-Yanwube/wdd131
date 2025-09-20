@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 131 - Place Page for Emmanuel Bawuni Yanwube">
+    <meta name="author" content="Emmanuel Bawuni Yanwube">
+    <meta name="keywords" content="Emmanuel, Bawuni, Yanwube, WDD131, Place Page">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Place Page - Emmanuel Bawuni Yanwube</title>
+</head>
+<body>
+    <header>
+        <h1>Ghana</h1>
+    </header>
+    
+    <main>
+        <figure>
+            <picture class="heroImage">
+                <source srcset="images/cape-coast-castle.webp" media="(min-width: 550px)">
+                <img src="images/cape-coast-castle.webp" width="614" height="768" alt="Cape Coast Castle, Ghana">
+            </picture>
+            <figcaption>Photo by <a href="https://fity.club/lists/suggestions/Cape-Coast-Castle-Museum/">Fity.Club</a> on <a href="https://www.bing.com/search?pglt=43&q=give+me+picture+of+cape+coast+castle+in+webp&cvid=b95105b3b16f48e9b55f78652dd963db&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEJNjkwNDJqMGoxqAIIsAIB&FORM=ANNAB1&ucpdpc=UCPD&PC=U531">Bing</a>
+            </figcaption>
+        </figure>
+
+        <div class="data">
+            <h2 class="pad">
+                Data
+            </h2>
+
+            <p>Area:</p>
+            <span> 92,499 sq. mi.</span>
+
+            <p>Population:</p>
+            <span>31,072,940</span>
+            
+            <p>Capitals:</p>
+            <span>Accra</span>
+            
+            <p>Currency:</p>
+            <span>Ghanaian cedi (GHS)</span>
+
+            <p>Time Zone:</p>
+            <span>UTC+0</span>
+
+            <p>Calling Code:</p>
+            <span>+233</span>
+
+            <p>Internet TLD:</p>
+            <span>.gh</span>
+        </div>
+
+        <div class="weather">
+            <h2>
+                Weather
+            </h2>
+
+            <!-- The <span> tag is much like the <div> element, but <div>
+                 is a block-level element and <span> is an inline element. -->
+            <p>Temperature:</p>
+            <span id="temp">26 °C</span>
+
+            <p>Conditions:</p>
+            <span id="condition">Partly Sunny / Cloudy</span>
+            
+            <p>Wind:</p>
+            <span id="wind">22 km/h</span>
+            
+            <p>Wind Chill:</p>
+            <span id="chill">--</span>
+
+            <div id="chill-button">
+                <button>Calculate Wind Chill</button>
+            </div>
+        </div>
+
+    </main>
+
+   <footer style="text-align:center; margin-top:20px; font-size:14px; color:white;">
+  <p>© 2025 | Emmanuel Bawuni Yanwube | Accra, Ghana</p>
+  <p id="lastModified"></p>
+</footer>
+</body>
+</html>
