@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Social Media Hub - Growth Tips and Training for Instagram, TikTok, Twitter, and Facebook">
+    <meta name="author" content="Emmanuel Bawuni Yanwube">
+    <meta name="keywords" content="social media growth, content strategy, engagement, followers, social media tips, social media training, Instagram, TikTok, Twitter, Facebook, online presence">
+
+    <link rel="stylesheet" href="styles/sunburst.css">
+    <link rel="stylesheet" href="styles/sunburst-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">              
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Social Media Hub - Growth Tips</title>
+</head>
+<body>
+    <header>
+        <div class="sunburst-logo">
+            <a href="./index.html">
+                <img class="center" src="images/socialmediahub.jpeg" width="400" height="134" alt="Social Media Hub Logo">
+            </a>
+            <h1 class="roboto">Social Media Hub - Growth Tips & Training</h1>
+        </div>
+
+        <div class="navpane">
+            <ul class="navigation">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="tips.html" id="training" class="active">Growth Tips</a></li>
+                <li><a href="tools.html" id="tools">Tools</a></li>
+                <li><a href="about.html" id="about">About</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div>
+            <h2>Social Media Hub - Growth Tips Page</h2>
+            <p>
+                Learn practical strategies for growing and managing your social media accounts effectively. 
+                Our tips cover Instagram, TikTok, Twitter, and Facebook, helping you increase followers, 
+                engagement, and overall online presence.
+            </p>
+            <p>
+                To receive personalized tips and guidance, please complete the following form:
+            </p>
+        </div>
+        
+        <form method="get">
+            <div class="name">
+                <label for="name" aria-label="Your Name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="email">
+                <label for="email" aria-label="Your Email Address">Your Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="interests">
+                <label aria-label="Select topics of interest">Which topics interest you?</label>
+                <p>(Check all that apply)</p>
+
+                <input type="checkbox" id="instagram" name="instagram" aria-label="Instagram Growth">
+                <label for="instagram">Instagram Growth</label><br>
+
+                <input type="checkbox" id="tiktok" name="tiktok" aria-label="TikTok Growth">
+                <label for="tiktok">TikTok Growth</label><br>
+
+                <input type="checkbox" id="twitter" name="twitter" aria-label="Twitter Growth">
+                <label for="twitter">Twitter Growth</label><br>
+
+                <input type="checkbox" id="facebook" name="facebook" aria-label="Facebook Growth">
+                <label for="facebook">Facebook Growth</label><br>
+
+                <input type="checkbox" id="content" name="content" aria-label="Content Strategy">
+                <label for="content">Content Strategy & Planning</label><br>
+                                
+                <input type="submit" name="submit" id="submit" value="Request Growth Tips" aria-label="Submit Request">
+            </div>
+        </form>
+            
+    </main>
+
+    <footer class="contact">
+        <p>For inquiries or collaboration:
+            <a href="mailto:ebawuni@gmail.com?subject=Social%20Media%20Hub%20Growth%20Tips%20Request">
+            ebawuni@gmail.com</a>
+        </p>
+        <p id="copywrite"></p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
